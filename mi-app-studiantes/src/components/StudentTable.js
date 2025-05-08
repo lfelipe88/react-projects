@@ -52,7 +52,7 @@ const StudentCRUD = () => {
 
   // Eliminar estudiante
   const handleDelete = (id) => {
-    if (window.confirm('¿Estás seguro de eliminar este estudiante?')) {
+    if (window.confirm('¿Estás seguro de eliminar este estudiante,seguro seguro?????')) {
       fetch(`${API_URL}/${id}`, { method: 'DELETE' })
         .then(() => fetchStudents());
     }
